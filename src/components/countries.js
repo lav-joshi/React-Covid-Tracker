@@ -6,31 +6,31 @@ import axios from 'axios';
 function Summary({summary, currentDate}) {
     return (
         
-        <div className="rowona">
-            <div className="NewConfirmed">
+        <div className="row rowona">
+            <div className="NewConfirmed javana">
                 <h3>New Confirmed</h3>
             <h1>{summary.NewConfirmed}</h1>
             </div>
 
-            <div className="TotalConfirmed">
+            <div className="TotalConfirmed javana">
                 <h3>Total Confirmed</h3>
             <h1>{summary.TotalConfirmed}</h1>
 
             </div>
 
-            <div className="NewDeaths">
+            <div className="NewDeaths javana">
                 <h3>New Deaths</h3>
             <h1>{summary.NewDeaths}</h1>
 
             </div>
 
-            <div className="TotalDeaths">
+            <div className="TotalDeaths javana">
                 <h3>Total Deaths</h3>
             <h1>{summary.TotalDeaths}</h1>
 
             </div>
 
-            <div className="TotalRecovered">
+            <div className="TotalRecovered javana">
                 <h3>Total Recovered</h3>
             <h1>{summary.TotalRecovered}</h1>
 
